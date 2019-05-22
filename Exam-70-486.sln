@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{FCCC191F-2368-40C7-8400-3922A491AB4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketsPlayground", "WebSocketsPlayground\WebSocketsPlayground.csproj", "{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketsPlayground", "WebSocketsPlayground\WebSocketsPlayground.csproj", "{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OdeToFoodNetCore", "OdeToFoodNetCore", "{CBD51F1D-0429-40A1-93D4-1AEBE258ADE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{23497C65-C60F-4D1F-9723-523F67630435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{967A4623-0F6A-4DAA-994F-38016D5AADC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFood", "OdeToFood\OdeToFood.csproj", "{BA56746F-0592-48C4-859F-F5133CC78134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +25,27 @@ Global
 		{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23497C65-C60F-4D1F-9723-523F67630435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23497C65-C60F-4D1F-9723-523F67630435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23497C65-C60F-4D1F-9723-523F67630435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23497C65-C60F-4D1F-9723-523F67630435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967A4623-0F6A-4DAA-994F-38016D5AADC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967A4623-0F6A-4DAA-994F-38016D5AADC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967A4623-0F6A-4DAA-994F-38016D5AADC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967A4623-0F6A-4DAA-994F-38016D5AADC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA56746F-0592-48C4-859F-F5133CC78134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA56746F-0592-48C4-859F-F5133CC78134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA56746F-0592-48C4-859F-F5133CC78134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA56746F-0592-48C4-859F-F5133CC78134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2037A7FA-41CC-43A0-8CD5-BC7B4CC44C63} = {FCCC191F-2368-40C7-8400-3922A491AB4E}
+		{23497C65-C60F-4D1F-9723-523F67630435} = {CBD51F1D-0429-40A1-93D4-1AEBE258ADE6}
+		{967A4623-0F6A-4DAA-994F-38016D5AADC2} = {CBD51F1D-0429-40A1-93D4-1AEBE258ADE6}
+		{BA56746F-0592-48C4-859F-F5133CC78134} = {CBD51F1D-0429-40A1-93D4-1AEBE258ADE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A32DEA3-55EB-403E-9FD3-85045BD7C82C}
